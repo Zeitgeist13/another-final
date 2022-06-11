@@ -1,0 +1,920 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+header h1 {
+    text-indent: -999999px;
+}
+
+h2 {
+    position: relative;
+    display: block;
+    text-align: center;
+
+
+}
+
+h2 {
+    font-size: 50px;
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+    margin-top: 40px;
+
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+nav ul li {
+    font-size: 30px;
+    background-color: white;
+
+}
+
+nav ul li a {
+    padding: 5px 10px;
+    color: black;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #eb3e0e;
+    text-decoration-color: #eb3e0e;
+
+}
+
+
+.text {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#button {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: rgb(187, 16, 16);
+    cursor: pointer;
+}
+
+#button:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+.sendmessage p {
+    padding: 10px 15px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(9, 157, 9);
+    width: 300px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.messagebox {
+    width: 300px;
+    height: 500px;
+    border-radius: 10px 10px 10px 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(172, 182, 182, 0.559);
+    display: none;
+}
+
+.messagebox .btn {
+    background-color: #eb3e0e;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    margin-top: 50px;
+}
+
+.messageboxheader p {
+    padding: 5px 10px;
+    color: #eb3e0e;
+    widtH: 20px;
+
+}
+
+.messagebox textarea {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    background-color: rgb(195, 186, 186);
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 30px;
+}
+
+.messagebox textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+.owl-carousel {
+    width: 100%;
+    height: 50px;
+    
+    background-color: white;
+    margin: 30px;
+    z-index: 0;
+
+
+}
+
+.item {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.item img {
+    overflow: hidden;
+}
+
+.owl-theme .owl-nav {
+    position: absolute;
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 150px;
+    left: 0;
+
+}
+
+.editorsbox {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.editorspicks img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+
+}
+
+.editorspicks p {
+    margin: auto;
+    width: 50%;
+
+    padding: 10px;
+}
+
+.editorspicks h3 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.sadziebo {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+}
+
+.mesame {
+    position: absolute;
+    left: 20px;
+
+    border: 1px solid black;
+    padding: 12px 30px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(36, 225, 19);
+}
+
+.mesame p {
+    margin: 0 auto;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.mesame:hover {
+    cursor: pointer;
+
+}
+
+.kvadrati2 {
+    width: 300px;
+    height: 44px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(237, 226, 17);
+    position: absolute;
+    top: 8px;
+    right: 20px;
+}
+
+.kvadrati2 p {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.kvadrati2:hover {
+    cursor: pointer;
+}
+
+.fa-cart-arrow-down {
+    font-size: 40px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+
+form.search input[type=text] {
+    width: 900px;
+    height: 44px;
+    border: 1px solid grey;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 18px;
+    left: 200px;
+}
+
+.firstbox {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.firstelement {
+    width: 30%;
+    justify-content: space-between;
+}
+
+.firstelement img {
+    width: 100%;
+    height:auto;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 20px;
+
+}
+.firstelement img:hover{
+    cursor: pointer;
+    box-shadow: 20px 20px rgb(137, 231, 86);
+    display: grid;
+   
+}
+
+.satauri {
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.satauri p {
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+    animation: chemianimacia 4s ease-in-out;
+}
+
+.pricebox {
+    width: 100%;
+    border: 1px solid red;
+    text-align: center;
+    position: relative;
+
+}
+
+.pricebox p {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bolder;
+    color: red;
+}
+
+.fa-thumbs-up {
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fa-thumbs-up:hover {
+    cursor: pointer;
+
+}
+
+body {
+    width: 1440px;
+    height: 1080px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.register form {
+    width: 100%;
+    height: 1024px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.register .firstbutton {
+    width: 750px;
+    height: 100px;
+    background-color: #209411;
+    margin: 0 auto;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.register .firstbutton a :hover {
+    cursor: pointer;
+}
+
+.register .firstbutton a {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 36px;
+    text-align: center;
+    margin: 20px 200px;
+
+}
+
+.register form input {
+    width: 750px;
+    height: 70px;
+    background-color: #c2d2d3;
+    opacity: 50%;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    margin: 15px auto;
+    outline: none;
+
+    justify-content: space-between;
+
+
+}
+
+.register form input {
+    font-size: 20px;
+    color: black;
+
+}
+
+.register .second p {
+    position: absolute;
+    left: 650px;
+    bottom: 200px;
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+
+
+.register input[type=checkbox] {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    margin: 15px auto;
+
+
+
+}
+
+#checkbox {
+    display: flex;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: left;
+    margin: 15px auto;
+    vertical-align: bottom;
+
+
+}
+
+
+.register form label[for=checkbox] {
+    display: flex;
+    text-align: left;
+    font-size: 16px;
+    position: absolute;
+    top: 864px;
+    left: 740px;
+
+
+
+}
+
+.register input[type=submit] {
+    background-color: rgb(17, 154, 15);
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.register input[type=submit]:hover{
+    background-color: #88ec0f;
+}
+
+.last {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.register form label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+.sakontaqto {
+    width: 500px;
+    height: 90px;
+    border: 1px solid rgb(231, 23, 12);
+    border-radius: 20px 20px 20px 20px;
+    background-color: #e88367;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 10px;
+    top: 100px;
+
+}
+
+.sakontaqto p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.fa-whatsapp-square {
+    font-size: 50px;
+}
+
+.foni {
+    max-width: 100%;
+    height: 400px;
+
+
+}
+
+.foni img {
+    max-width: 100%;
+}
+
+.under {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    position: absolute;
+    margin-top: 300px;
+    width: 70%;
+    align-items: center;
+}
+
+.iframe {
+    position: absolute;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    body {
+        width: auto;
+        overflow-y: hidden;
+    }
+
+    nav ul {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    nav ul li {
+        font-size: 30px;
+        background-color: white;
+
+    }
+
+    nav ul li a {
+        padding: 5px 10px;
+        color: black;
+        font-size: 20px;
+    }
+
+    .sendmessage p {
+        padding: 10px 15px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: rgb(9, 157, 9);
+        width: 200px;
+        text-align: center;
+        position: fixed;
+        bottom: 20px;
+        right: 40px;
+
+    }
+    
+
+    h2 {
+        position: relative;
+        display: block;
+        text-align: center;
+
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+    body{
+        overflow: scroll;
+    }
+    
+    
+    .register input[type=checkbox] {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px 10px 10px 10px;
+        position: relative;
+        margin: 15px auto;
+    
+    
+    
+    }
+    
+    #checkbox {
+        display: flex;
+        position: relative;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px 10px 10px 10px;
+        text-align: left;
+        margin: 15px auto;
+        vertical-align: bottom;
+    
+    
+    }
+    
+    
+    .register form label[for=checkbox] {
+        display: flex;
+        text-align: left;
+        font-size: 16px;
+        position: absolute;
+        top: 864px;
+        left: 600px;
+    
+    
+    
+    }
+    
+    
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .body{
+
+        width: auto;
+        overflow-y: hidden;
+    }
+    .owl-carousel {
+        width: 100%;
+        height: 50px;
+        background-color: white;
+        margin: 30px;
+        z-index: 0;
+
+
+    }
+    .sendmessage p {
+        padding: 10px 15px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: rgb(9, 157, 9);
+        width: 200px;
+        text-align: center;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    
+    }
+    
+    .messagebox {
+        width: 200px;
+        height: 400px;
+        border-radius: 10px 10px 10px 10px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: rgba(172, 182, 182, 0.559);
+        display: none;
+    }
+    
+
+    nav ul li a {
+        padding: 5px 10px;
+        color: black;
+        font-size: 15px;
+    }
+
+    h2 {
+        position: relative;
+        display: block;
+        text-align: center;
+
+    }
+
+    h2 p {
+        font-size: 30px;
+    }
+
+
+
+    .owl-theme .owl-nav {
+        position: absolute;
+        font-size: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        top: 80px;
+        left: 0;
+
+    }
+    .register form label[for=checkbox] {
+        display: flex;
+        text-align: left;
+        font-size: 16px;
+        position: absolute;
+        top: 864px;
+        left: 400px;
+    }
+    .register .firstbutton a {
+        position: absolute;
+        color: #FFFFFF;
+        font-size: 24px;
+        text-align: center;
+        margin: 30px 200px;
+        left:50px;
+    
+    }
+    
+
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        width: auto;
+        overflow-y: hidden;
+    }
+
+    nav ul {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+
+
+    }
+
+    nav ul li {
+        font-size: 30px;
+        background-color: white;
+
+    }
+
+    nav ul li a {
+        padding: 5px 10px;
+        color: black;
+        font-size: 20px;
+    }
+    .owl-theme .owl-nav {
+        position: absolute;
+        font-size: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+        left: 0;
+
+    }
+
+    .sendmessage p {
+        padding: 10px 15px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: rgb(9, 157, 9);
+        width: 50px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+
+    }
+
+    h2 {
+        position: relative;
+        display: block;
+        text-align: center;
+
+    }
+
+    h2  {
+        font-size: 50px;
+    }
+    .register form {
+        width: 100%;
+        height: 1024px;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .register .firstbutton {
+        width: 750px;
+        height: 100px;
+        background-color: #209411;
+        margin: 0 auto;
+        border-radius: 20px 20px 20px 20px;
+    
+    }
+    
+    .register .firstbutton a :hover {
+        cursor: pointer;
+    }
+    
+    .register .firstbutton a {
+        position: absolute;
+        color: #FFFFFF;
+        font-size: 36px;
+        text-align: center;
+        margin: 20px 200px;
+    
+    }
+    
+    .register form input {
+        width: 750px;
+        height: 70px;
+        background-color: #c2d2d3;
+        opacity: 50%;
+        border-radius: 10px 10px 10px 10px;
+        padding: 20px;
+        margin: 15px auto;
+        outline: none;
+    
+        justify-content: space-between;
+    
+    
+    }
+    
+    .register form input {
+        font-size: 10px;
+        color: black;
+    
+    }
+    
+    .register .second p {
+        position: absolute;
+        left: 650px;
+        bottom: 200px;
+        font-size: 14px;
+        font-weight: bolder;
+    
+    }
+    
+    .register form label[for=checkbox] {
+        display: flex;
+        text-align: left;
+        font-size: 16px;
+        position: absolute;
+        top: 864px;
+        left: 200px;
+    }
+    .register .firstbutton a {
+        position: absolute;
+        color: #FFFFFF;
+        font-size: 24px;
+        text-align: center;
+        margin: 30px 200px;
+        left:50px;
+    
+    }
+    
+
+}
+
+@media screen and (max-width: 390px){
+    .body{
+        overflow:scroll;
+        width: auto;
+        
+    }
+    .editorsbox {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .editorspicks img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+    
+    }
+    
+    .editorspicks p {
+        margin: auto;
+        width: 50%;
+    
+        padding: 10px;
+    }
+    
+    .editorspicks h3 {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+}
+    
